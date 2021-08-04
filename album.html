@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiger</title>
     <style>
+        *{
+            outline: none;
+        }
         .photo-album{
             display: flex;
             flex-wrap: wrap;
@@ -27,16 +30,21 @@
             top: 0%;
             font-size: .9em;
             display: none;
-            /* padding: 4px; */
             text-align: justify;
+        }
+        .photo-detail p{
+            padding: 0 10px;
+            margin-top: 5px;
         }
         .photo-frame:hover .photo-detail{
             display: block;
             background-color: rgba(245, 245, 245, 0.514);
+    
         }
         .photo-detail h3{
             background-color: thistle;
             text-align: center;
+            margin-bottom: 0;
         }
         .photo-detail p{
             color: rgb(5, 4, 4);
