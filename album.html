@@ -19,6 +19,7 @@
             border-radius: 10px;
             position: relative;
             margin: 1em;
+            overflow: hidden;
         }
         .photo img{
             width: 100%;
@@ -40,6 +41,10 @@
             display: block;
             background-color: rgba(245, 245, 245, 0.514);
     
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.8) rotate(-360deg);
+            transition: transform 3s ease-in-out;
         }
         .photo-detail h3{
             background-color: thistle;
